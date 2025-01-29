@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ededed;
+  --foreground: #07020D;
+  --shakespeare-50: #f2f9fd;
+  --shakespeare-100: #e4f1fa;
+  --shakespeare-200: #c4e3f3;
+  --shakespeare-300: #8fccea;
+  --shakespeare-400: #5db7de;
+  --shakespeare-500: #2e9ac9;
+  --shakespeare-600: #1f7caa;
+  --shakespeare-700: #1a638a;
+  --shakespeare-800: #195373;
+  --shakespeare-900: #1a4660;
+  --shakespeare-950: #112d40;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #07020D;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
